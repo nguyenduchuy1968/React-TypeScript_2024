@@ -12,7 +12,7 @@ const CarContainer = () => {
     const [cars, setCars] = useState<ICar[]>([])
 
     useEffect(() => {
-        carService.getAll().then(({data}) => setCars(data))
+        // carService.getAll().then(({data}) => setCars(data))
     })
 
     return (
